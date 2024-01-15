@@ -8,7 +8,6 @@ const app = express();
 
 dbConection();
 
-
 //Escuchando peticiones 
 app.listen( process.env.PORT, () => {
     console.log(`Server corriendo ${ process.env.PORT }`);
